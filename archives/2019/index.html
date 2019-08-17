@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
     
     
   <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-corner-indicator.min.css?v=1.0.2" rel="stylesheet">
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -103,9 +103,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"hide","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -151,7 +151,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-right page-archive">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -316,7 +316,7 @@
         
             <a class="post-title-link" href="/2019/08/17/VOL-01/" itemprop="url">
               
-                <span itemprop="name">未命名</span>
+                <span itemprop="name">VOL.01</span>
               
             </a>
         
@@ -430,6 +430,15 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
 
           </nav>
 
@@ -454,6 +463,8 @@
         <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
           
+            <span id="scrollpercent"><span>0</span>%</span>
+          
         </div>
       
 
@@ -476,8 +487,6 @@
   
 </div>
 
-
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
@@ -583,6 +592,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
