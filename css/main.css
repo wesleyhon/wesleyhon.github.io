@@ -667,7 +667,6 @@ pre .javascript .function {
   padding: 0;
   border-left: none;
   text-align: center;
-  font-style: italic;
 }
 .blockquote-center::before,
 .page-home .post-type-quote blockquote::before,
@@ -1395,7 +1394,7 @@ pre .javascript .function {
 .page-post-detail .post-type-quote .post-header,
 .page-home .post-type-quote .post-tags,
 .page-post-detail .post-type-quote .post-tags {
-  display: block;
+  display: none;
 }
 .posts-expand .post-title {
   text-align: center;
@@ -1508,8 +1507,8 @@ pre .javascript .function {
 .posts-expand .post-tags a {
   display: inline-block;
   margin-right: 10px;
-  font-size: 12px;
-  font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
+  font-size: 13px;
+  font-family: consolas, Menlo, 'Noto Serif SC', "Noto Serif SC", sans-serif, monospace, Kalam, 'EB Garamond', consolas, Menlo, 'Noto Serif SC', "Noto Serif SC", sans-serif, monospace;
 }
 .post-nav {
   display: table;
@@ -1776,7 +1775,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cf4434;
+  background: #81d506;
 }
 .links-of-blogroll {
   font-size: 13px;
