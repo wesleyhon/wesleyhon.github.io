@@ -305,6 +305,7 @@ hr {
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 blockquote {
+  margin: 0 40px;
   padding: 0 15px;
   color: #666;
   border-left: 4px solid #ddd;
@@ -1295,6 +1296,9 @@ pre .javascript .function {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
+.blockquote {
+  margin: 0 15px;
+}
 .use-motion .post-block,
 .use-motion .pagination,
 .use-motion .comments {
@@ -1317,7 +1321,8 @@ pre .javascript .function {
     margin: 0 20px;
   }
   .post-body {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: regular;
   }
   .post-body pre .gutter pre {
     padding-right: 10px;
@@ -1338,6 +1343,7 @@ pre .javascript .function {
 }
 .posts-expand .post-body h1 {
   font-size: 20px;
+  padding-top: 10px;
 }
 .posts-expand .post-body h2,
 .posts-expand .post-body h3,
@@ -1345,6 +1351,8 @@ pre .javascript .function {
 .posts-expand .post-body h5,
 .posts-expand .post-body h6 {
   padding-top: 10px;
+  font-size: 16px;
+  font-weight: regular;
 }
 .posts-expand .post-body h2 .header-anchor,
 .posts-expand .post-body h3 .header-anchor,
@@ -1504,10 +1512,10 @@ pre .javascript .function {
 .posts-expand .post-title {
   text-align: center;
   word-break: break-word;
-  font-weight: bold;
+  font-weight: 700;
   color: #7f0020;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 2;
 }
 .posts-expand .post-title-link {
   display: inline-block;
@@ -1548,7 +1556,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 3px 0;
   color: #999;
   font-family: 'Noto Serif SC', "Noto Serif SC";
   font-size: 16px;
@@ -1881,7 +1889,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #0409f6;
 }
 .links-of-blogroll {
   font-size: 13px;
