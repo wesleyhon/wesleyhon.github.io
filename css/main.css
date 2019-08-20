@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 h1,
@@ -226,51 +226,51 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 18px;
-}
-@media (max-width: 767px) {
-  h1 {
-    font-size: 14px;
-  }
-}
-h2 {
-  font-size: 16px;
-}
-@media (max-width: 767px) {
-  h2 {
-    font-size: 12px;
-  }
-}
-h3 {
   font-size: 14px;
 }
 @media (max-width: 767px) {
-  h3 {
+  h1 {
     font-size: 10px;
   }
 }
-h4 {
+h2 {
   font-size: 12px;
 }
 @media (max-width: 767px) {
-  h4 {
+  h2 {
     font-size: 8px;
   }
 }
-h5 {
+h3 {
   font-size: 10px;
 }
 @media (max-width: 767px) {
-  h5 {
+  h3 {
     font-size: 6px;
   }
 }
-h6 {
+h4 {
   font-size: 8px;
 }
 @media (max-width: 767px) {
-  h6 {
+  h4 {
     font-size: 4px;
+  }
+}
+h5 {
+  font-size: 6px;
+}
+@media (max-width: 767px) {
+  h5 {
+    font-size: 2px;
+  }
+}
+h6 {
+  font-size: 4px;
+}
+@media (max-width: 767px) {
+  h6 {
+    font-size: 0px;
   }
 }
 p {
@@ -1243,7 +1243,7 @@ pre .javascript .function {
 }
 .menu .menu-item a {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
   line-height: inherit;
   border-bottom: 1px solid transparent;
@@ -1263,6 +1263,7 @@ pre .javascript .function {
 }
 .post-body {
   font-family: 'Noto Serif SC', "Noto Serif SC";
+  font-size: $font-size-base-smaller;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1280,7 +1281,6 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 20px;
   color: #999;
   font-weight: regular;
   line-height: 1;
@@ -1316,6 +1316,9 @@ pre .javascript .function {
   .posts-expand {
     margin: 0 20px;
   }
+  .post-body {
+    font-size: 16px;
+  }
   .post-body pre .gutter pre {
     padding-right: 10px;
   }
@@ -1332,6 +1335,9 @@ pre .javascript .function {
   .posts-expand .post-body {
     text-align: justify;
   }
+}
+.posts-expand .post-body h1 {
+  font-size: 20px;
 }
 .posts-expand .post-body h2,
 .posts-expand .post-body h3,
@@ -1468,9 +1474,9 @@ pre .javascript .function {
 }
 .posts-collapse .post-meta {
   position: absolute;
-  font-size: 12px;
+  font-size: 16px;
   left: 20px;
-  top: 5px;
+  top: -1px;
 }
 .posts-collapse .post-comments-count {
   display: none;
@@ -1499,14 +1505,17 @@ pre .javascript .function {
   text-align: center;
   word-break: break-word;
   font-weight: bold;
+  color: #7f0020;
+  font-size: 24px;
+  line-height: 1.5;
 }
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
   font-weight: bold;
-  color: #555;
+  color: #222;
   border-bottom: none;
-  line-height: 1.2;
+  line-height: 1.5;
   vertical-align: top;
 }
 .posts-expand .post-title-link::before {
@@ -1542,7 +1551,7 @@ pre .javascript .function {
   margin: 3px 0 60px 0;
   color: #999;
   font-family: 'Noto Serif SC', "Noto Serif SC";
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 .posts-expand .post-meta .post-category-list {
@@ -1554,7 +1563,7 @@ pre .javascript .function {
   color: #999;
 }
 .posts-expand .post-meta .post-description {
-  font-size: 14px;
+  font-size: $font-size-base-smaller;
   font-family: 'Noto Serif SC', "Noto Serif SC";
   margin-top: 2px;
 }
@@ -1591,6 +1600,7 @@ pre .javascript .function {
 }
 .post-time {
   font-family: 'Noto Serif SC', "Noto Serif SC";
+  font-size: 12px;
 }
 .post-button {
   margin-top: 40px;
@@ -1602,7 +1612,7 @@ pre .javascript .function {
 .posts-expand .post-tags a {
   display: inline-block;
   margin-right: 10px;
-  font-size: 13px;
+  font-size: $font-size-base-smaller;
   font-style: italic;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
 }
@@ -1795,7 +1805,7 @@ pre .javascript .function {
 .site-description {
   margin-top: 5px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
 }
@@ -1871,7 +1881,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1a26e9;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2366,10 +2376,10 @@ pre .javascript .function {
   font-size: 16px;
 }
 .local-search-popup .search-keyword {
-  border-bottom: 1px dashed #f00;
+  border-bottom: 1px dashed #7f0020;
   font-weight: bold;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
-  color: #f00;
+  color: #7f0020;
 }
 .local-search-popup .local-search-header {
   padding: 5px;
@@ -2383,6 +2393,7 @@ pre .javascript .function {
   position: relative;
   padding: 5px 25px;
   height: calc(100% - 55px);
+  font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
 }
 .local-search-popup .local-search-input-wrapper {
   display: inline-block;
@@ -2390,6 +2401,7 @@ pre .javascript .function {
   height: 36px;
   line-height: 36px;
   padding: 0 5px;
+  font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
 }
 .local-search-popup .local-search-input-wrapper input {
   padding: 8px 0;
