@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-20T15:54:05.559Z</updated>
+  <updated>2019-09-06T16:37:24.091Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Start From Nowhere</title>
+    <link href="http://yoursite.com/2019/09/07/Start-From-Nowhere/"/>
+    <id>http://yoursite.com/2019/09/07/Start-From-Nowhere/</id>
+    <published>2019-09-06T16:34:58.000Z</published>
+    <updated>2019-09-06T16:37:24.091Z</updated>
+    
+    <content type="html"><![CDATA[<p>但若一次，远非足够。</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;但若一次，远非足够。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Murmurs" scheme="http://yoursite.com/tags/Murmurs/"/>
+    
+  </entry>
   
   <entry>
     <title>VOL.01</title>
