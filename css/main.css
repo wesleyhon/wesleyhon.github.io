@@ -1132,8 +1132,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 56px;
-  font-size: 50px;
-  color: $white;
+  font-size: 66px;
+  font-style: italic;
+  color: #470024;
   font-weight: bold;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
 }
@@ -1859,7 +1860,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0b52;
+  background: #2814d4;
 }
 .links-of-blogroll {
   font-size: 13px;
